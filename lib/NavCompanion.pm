@@ -146,6 +146,17 @@ use UNIVERSAL;
 my %Allowed = map { $_, 1 } qw(
 	name
 	description
+	latitude
+	longitude
+	elevation
+	creation_date
+	creation_time
+	creation_sec
+	creation_min
+	creation_hour
+	creation_day
+	creation_mon
+	creation_year
 	);
 
 sub AUTOLOAD {
@@ -179,7 +190,7 @@ use vars qw($VERSION);
 use Palm::Raw;
 use Palm::StdAppInfo();
 
-$VERSION = '0.50_01';
+$VERSION = '0.50_02';
 
 our $Creator = "MGtz";
 our $Type    = "Twpt";
