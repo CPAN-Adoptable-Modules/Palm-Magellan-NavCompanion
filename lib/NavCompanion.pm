@@ -48,6 +48,14 @@ just a class of accessor methods (for now).
 
 =over 4
 
+=item new
+
+Create a new object. This method takes no arguments
+
+=item Load( FILENAME )
+
+Load a file in Palm Database format
+
 =item name
 
 The description.  The format allows up to 20
@@ -134,7 +142,7 @@ brian d foy C<< <bdfoy@cpan.org> >>
 
 =head1 COPYRIGHT
 
-Copyright (c) 2004, brian d foy, All Rights Reserved.
+Copyright (c) 2004-2005, brian d foy, All Rights Reserved.
 
 You may redistribute this under the same terms as Perl itself.
 
@@ -190,7 +198,7 @@ use vars qw($VERSION);
 use Palm::Raw;
 use Palm::StdAppInfo();
 
-$VERSION = '0.50_02';
+$VERSION = '0.50_03';
 
 our $Creator = "MGtz";
 our $Type    = "Twpt";

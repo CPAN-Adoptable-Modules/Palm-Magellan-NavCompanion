@@ -26,6 +26,8 @@ WriteMakefile
 
 	'PREREQ_PM'      => {
 		'Test::More'       => '0',
+		'Palm::Raw'        => '0',
+		'Palm::StdAppInfo' => '0',
 		},
 
 	'MAN3PODS'       => {
