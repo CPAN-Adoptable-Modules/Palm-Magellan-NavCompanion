@@ -1,5 +1,8 @@
 # $Id$
 
+0.50_02 - Sun Aug 29 15:35:32 2004
+* Added support for all the record fields I documented.  Oops.
+
 0.50_01 - Sun Aug 29 15:08:50 2004
 * This is an initial, alpha, developer, not-done-yet release
 * I can read the "Companion Waypoints.pdb" file, I just can't write
