@@ -1,8 +1,10 @@
+Changes
 files/waypoints.pdb
 files/waypoints1.pdb
 lib/NavCompanion.pm
 Makefile.PL
 META.yml
+README
 t/compile.t
 t/fields.t
 t/Load.t
