@@ -19,14 +19,17 @@ WriteMakefile
 	(
 	'NAME'           => 'Palm::Magellan::NavCompanion',
 	'VERSION_FROM'   => 'lib/NavCompanion.pm',
-	'PM'       => {
+
+	'PM'             => {
 		'lib/NavCompanion.pm'     => '$(INST_LIBDIR)/NavCompanion.pm',
 		},
-	'PREREQ_PM' => {
+
+	'PREREQ_PM'      => {
 		'Test::More'       => '0',
 		},
-	'MAN3PODS'     => {
-		'lib/NavCompanion.pm' => 'Palm::Magellan::NavCompanion.3',
+
+	'MAN3PODS'       => {
+		'lib/NavCompanion.pm' => '$(INST_MAN3DIR)/Palm::Magellan::NavCompanion.3',
 		},
 
 	clean => { FILES => 'Palm-Magellan-*' },
