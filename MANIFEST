@@ -1,0 +1,12 @@
+files/waypoints.pdb
+files/waypoints1.pdb
+lib/NavCompanion.pm
+Makefile.PL
+META.yml
+t/compile.t
+t/fields.t
+t/Load.t
+t/pod.t
+t/prereq.t
+t/raw_records.t
+t/test_manifest
