@@ -1,7 +1,9 @@
 Changes
+examples/README
 files/waypoints.pdb
 files/waypoints1.pdb
 lib/NavCompanion.pm
+LICENSE
 Makefile.PL
 META.yml
 README
@@ -9,6 +11,7 @@ t/compile.t
 t/fields.t
 t/Load.t
 t/pod.t
+t/pod_coverage.t
 t/prereq.t
 t/raw_records.t
 t/test_manifest

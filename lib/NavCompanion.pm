@@ -1,5 +1,8 @@
 # $Id$
 package Palm::Magellan::NavCompanion::Record;
+use strict;
+
+use vars qw( $AUTOLOAD );
 
 =head1 NAME
 
@@ -140,11 +143,12 @@ members of the project can shepherd this module appropriately.
 
 brian d foy C<< <bdfoy@cpan.org> >>
 
-=head1 COPYRIGHT
+=head1 COPYRIGHT AND LICENSE
 
-Copyright (c) 2004-2005, brian d foy, All Rights Reserved.
+Copyright (c) 2004-2007 brian d foy.  All rights reserved.
 
-You may redistribute this under the same terms as Perl itself.
+This program is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
 
 =cut
 
@@ -198,7 +202,7 @@ use vars qw($VERSION);
 use Palm::Raw;
 use Palm::StdAppInfo();
 
-$VERSION = '0.50_03';
+$VERSION = '0.51';
 
 our $Creator = "MGtz";
 our $Type    = "Twpt";
