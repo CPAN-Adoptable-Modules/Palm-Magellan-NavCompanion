@@ -201,7 +201,7 @@ use vars qw($VERSION);
 use Palm::Raw;
 use Palm::StdAppInfo();
 
-$VERSION = '0.51';
+$VERSION = '0.52';
 
 our $Creator = "MGtz";
 our $Type    = "Twpt";
