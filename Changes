@@ -1,5 +1,7 @@
 # $Id$
 
+0.52 - Thu Jan 25 14:34:53 2007
+
 0.51 - Thu Jan 25 14:32:46 2007
 	* fix the last distro which had a bad pattern in MANIFEST.SKIP which
 	prevented MANIFEST from making it into the directory.
