@@ -1,5 +1,9 @@
 # $Id$
 
+0.51 - Thu Jan 25 14:32:46 2007
+	* fix the last distro which had a bad pattern in MANIFEST.SKIP which
+	prevented MANIFEST from making it into the directory.
+
 0.51 - Wed Jan 10 18:34:57 2007
 	* bumped to a release version
 
