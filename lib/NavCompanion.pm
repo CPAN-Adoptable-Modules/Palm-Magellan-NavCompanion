@@ -26,26 +26,25 @@ Palm::Magellan::NavCompanion - access the Magellan GPS Companion waypoints file
 
 =head1 DESCRIPTION
 
-This module gives you access to the waypoints in the Magellan's
-GPS Companion "Companion Waypoints.pdb" file.  You have to be
-able to load that file, which probably means that you have it
-on your computer rather than your Palm.  On my machine, this
-file shows up in the Palm directory as
-C< Palm/Users/..user../Backups/Companion Waypoints.pdb >.
+This module gives you access to the waypoints in the Magellan's GPS
+Companion "Companion Waypoints.pdb" file.  You have to be able to load
+that file, which probably means that you have it on your computer
+rather than your Palm.  On my machine, this file shows up in the Palm
+directory as C< Palm/Users/..user../Backups/Companion Waypoints.pdb >.
 
-Behind-the-scenes, Palm::PDB does all the work, so this module
-has part of its interface and data structure.  For instance,
-the Load() method accesses and parses the file and returns
-the general data structure that Palm::PDB creates.  The
-interesting bits (the waypoints) is an anonymous array
-which is the value for the key C<records>.
+Behind-the-scenes, Palm::PDB does all the work, so this module has
+part of its interface and data structure.  For instance, the Load()
+method accesses and parses the file and returns the general data
+structure that Palm::PDB creates.  The interesting bits (the
+waypoints) is an anonymous array which is the value for the key
+C<records>.
 
 	# an anonymous array
 	my $waypoints = $pdb->{records};
 
 Each element in C< @{ $waypoints } > is an object of class
-C<Palm::Magellan::NavCompanion::Record>, which is really
-just a class of accessor methods (for now).
+C<Palm::Magellan::NavCompanion::Record>, which is really just a class
+of accessor methods (for now).
 
 =head2 Methods
 

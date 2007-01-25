@@ -1,7 +1,7 @@
 # $Id$
 
 use Test::More;
-eval "use Test::Pod::Coverage";
+eval "use Test::Pod::Coverage 1.08";
 
 if( $@ )
 	{

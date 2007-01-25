@@ -5,6 +5,7 @@ files/waypoints1.pdb
 lib/NavCompanion.pm
 LICENSE
 Makefile.PL
+MANIFEST
 META.yml
 README
 t/compile.t
