@@ -7,7 +7,9 @@ WriteMakefile
 	(
 	'NAME'           => 'Palm::Magellan::NavCompanion',
 	'VERSION_FROM'   => 'lib/NavCompanion.pm',
-	'LICENSE'       => 'perl',
+	'LICENSE'      => 'perl',
+	'AUTHOR'       => 'brian d foy <bdfoy@cpan.org>',
+	
 
 	'PM'             => {
 		'lib/NavCompanion.pm'     => '$(INST_LIBDIR)/NavCompanion.pm',
