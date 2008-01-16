@@ -1,5 +1,8 @@
 # $Id$
 
+0.53 - Wed Jan 16 04:43:34 2008
+	* Cleanups for the move from CVS to SVN. No need to upgrade.
+
 0.52 - Thu Jan 25 14:34:53 2007
 
 0.51 - Thu Jan 25 14:32:46 2007
