@@ -1,5 +1,9 @@
 # Changes for Palm::Magellan::NavCompanion
 
+0.54 - Thu Jan  1 18:28:32 EST 2015
+	* Cut this module loose into the desert. If you want to maintain
+	this module, write to modules@perl.org.
+
 0.53 - Wed Jan 16 04:43:34 2008
 	* Cleanups for the move from CVS to SVN. No need to upgrade.
 
