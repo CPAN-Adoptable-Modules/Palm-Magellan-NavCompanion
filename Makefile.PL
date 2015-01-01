@@ -31,6 +31,15 @@ WriteMakefile
 		'Palm::StdAppInfo'  => '0',
 		},
 
+	'META_MERGE' => {
+		'meta-spec' => { version => 2 },
+		resources => {
+			repository => {
+				type => 'git',
+				url  => 'https://github.com/CPAN-Adopt-Me/Palm-Magellan-NavCompanion',
+				web  => 'https://github.com/CPAN-Adopt-Me/Palm-Magellan-NavCompanion',
+				},
+			},
 		},
 
 	clean => { FILES => 'Palm-Magellan-*' },
