@@ -1,5 +1,3 @@
-# $Id$
-
 BEGIN { @classes = qw( Palm::Magellan::NavCompanion ) }
 
 use Test::More tests => scalar @classes;
