@@ -2,7 +2,7 @@ Changes
 examples/README
 files/waypoints.pdb
 files/waypoints1.pdb
-lib/NavCompanion.pm
+lib/Palm/NavCompanion.pm
 LICENSE
 Makefile.PL
 MANIFEST
@@ -14,4 +14,3 @@ t/pod.t
 t/pod_coverage.t
 t/prereq.t
 t/raw_records.t
-t/test_manifest
