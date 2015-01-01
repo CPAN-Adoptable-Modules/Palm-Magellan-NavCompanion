@@ -1,3 +1,4 @@
+# Changes for Palm::Magellan::NavCompanion
 
 0.53 - Wed Jan 16 04:43:34 2008
 	* Cleanups for the move from CVS to SVN. No need to upgrade.
